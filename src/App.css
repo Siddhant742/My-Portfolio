@@ -42,11 +42,13 @@ body {
   font-size: 40px;
   margin: 0 0 10px;
   /* Add margin bottom for spacing */
+  color: #f6f1f1;
 }
 
 .intro-text p {
   font-size: 16px;
   margin: 0;
+  color: #989292;
 }
 
 /* Content Section Styles */
@@ -59,6 +61,7 @@ body {
 
 .content-section h2 {
   font-size: 24px;
+  color: #f6f1f1;
 }
 
 /* Button Styles */
