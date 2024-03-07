@@ -11,14 +11,14 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <ul className="fIcons">
         <li className="fIcon">
           <a href="https://www.facebook.com/siddhant.thakur.73594">
             <FaFacebookF className="icon" />{" "}
           </a>
 
-          <a href="https://twitter.com/MetroNz_">
+          <a href="https://twitter.com/Siddhan31750111">
             <FaTwitter className="icon" />{" "}
           </a>
 
