@@ -1,38 +1,97 @@
-.App {
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  /* Dark background */
+  color: #fff;
+  /* White text */
+}
+
+Header Styles
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.intro-text {
+  padding: 0 50px;
+}
+
+.intro-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.intro-text p {
+  font-size: 18px;
+}
+
+/* Profile Image Styles */
+.profile-image {
+  width: calc(25vw);
+  /* Set width to 1/3rd of viewport width */
+  height: calc(25vw);
+  /* Set height to match width for a circle */
+  border-radius: 50%;
+  /* Ensure it's a perfect circle */
+  overflow: hidden;
+  /* Hide the overflow to maintain the circle shape */
+  
+}
+
+.profile-image img {
+  width: 150%;
+  /* Ensure the image fills the container */
+  height: auto;
+  /* Let the height adjust automatically to maintain aspect ratio */
+  /* object-fit: cover; */
+  /* Cover the entire container while maintaining aspect ratio */
+}
+
+/* Content Section Styles */
+.content-section {
+  padding: 50px;
+}
+
+.content-section h2 {
+  font-size: 24px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  /* Blue color for contrast */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+/* .footer {
+  background-color: #333;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.social-icons a:hover {
+  opacity: 0.7;
+} */
